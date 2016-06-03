@@ -5,7 +5,7 @@ public class Pickup_Rotator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        InvokeRepeating("Respawn()", 0, 10);
+        InvokeRepeating("Respawn", 0, 10);
 	}
 
     void Respawn()
